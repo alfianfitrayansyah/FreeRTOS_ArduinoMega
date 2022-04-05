@@ -1,6 +1,8 @@
 #include <Arduino.h>
 #include <Arduino_FreeRTOS.h>
 
+// FreeRTOS Practice
+
 void Task_LED1(void *param);
 void Task_LED2(void *param);
 
@@ -10,9 +12,6 @@ TaskHandle_t Task_Handle2;
 void setup()
 {
   
-  // Serial.begin(9600);
-  // Serial.println(F("In Setup function"));
-
   pinMode(0, OUTPUT);
   pinMode(1, OUTPUT);
   pinMode(2, OUTPUT);
