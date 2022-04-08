@@ -817,7 +817,7 @@ StackType_t *pxTopOfStack;
 #endif /* INCLUDE_vTaskDelete */
 /*-----------------------------------------------------------*/
 
-#if ( INCLUDE_vTaskDelayUntil == 1 )
+// #if ( INCLUDE_vTaskDelayUntil == 1 )
 
 	void vTaskDelayUntil( TickType_t * const pxPreviousWakeTime, const TickType_t xTimeIncrement )
 	{
@@ -910,7 +910,7 @@ StackType_t *pxTopOfStack;
 		}
 	}
 
-#endif /* INCLUDE_vTaskDelayUntil */
+// #endif /* INCLUDE_vTaskDelayUntil */
 /*-----------------------------------------------------------*/
 
 #if ( INCLUDE_vTaskDelay == 1 )
